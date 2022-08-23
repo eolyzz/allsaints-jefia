@@ -208,7 +208,7 @@ table {
  * Global Styles
  */
 body {
-  color: #918b9b;
+  color: #966cdb;
   font-family: "Belgrano", "Roboto Slab", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
 
 hr {
   border: none;
-  border-bottom: 1px solid #777; }
+  border-bottom: 1px solid rgb(215, 31, 31); }
 
 ul, ol {
   margin: 0;
@@ -1431,8 +1431,64 @@ form textarea {
       color: white; }
     .hero .slides .slide-title {
       font-size: 60px;
-      font-size: 4.2857142857em;
-      color: #ecb540; }
+      font-size: 6.4857142857em;
+      color: #fff; 
+      height: 100px;
+      text-align: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    .headtitle{
+      font-size: 60px;
+      font-size: 1.2857142857em;
+      color: #fff; 
+      height: 100px;
+      text-align: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    .slogantitle{
+      font-size: 60px;
+      font-size: 1.2857142857em;
+      color: #ffc107; 
+      height: 100px;
+      text-align: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    .contents{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    .ford{
+      color: #ffc107;
+      position: relative;
+      left: 20px;
+    }
+    .hero .slides .slide-content .aslider {
+      color: #ffc107;
+      margin-left: 12px;
+      box-sizing: border-box;
+      line-height: 100px;
+      animation: aslider 6s linear infinite;
+    }
+    @keyframes aslider {
+      0%{ margin-top: -200px;}
+      30%{ margin-top: -200px; }
+      35%{ margin-top: 0%; }
+      65%{ margin-top: 0%; }
+      70%{ margin-top: 200px; }
+      100%{ margin-top: 200px; }
+    }
     .hero .slides .date {
       font-size: 30px;
       font-size: 2.1428571429em;
@@ -1507,5 +1563,15 @@ form textarea {
     font-size: 2.8571428571em; }
 
 /*
- * Footer Styles
+ * Footer Styles   
  */
+
+.acontent { 
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  color: #fff;
+}
+
